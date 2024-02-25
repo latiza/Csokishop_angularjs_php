@@ -1,0 +1,6 @@
+ a tanári gépen futtatott xampp portját át állítottuk:
+ appache config - első httpd.conf
+ ezen belül keresés "listen" 
+ és a Listen 80-as portot kommentbe tettük és
+ Listen 192.168.5.132:8080 -as port lett megadva
+ így a tanulók a :8080/mappa/read.php fájlt elérik a tanulók 
